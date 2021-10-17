@@ -3,12 +3,21 @@
 #
 
 ###
-To compile this code first run:
+To compile this code first clone the repository:
 ###
 
 ```
 git clone https://github.com/Satya191/ruhappy.git
 ```
+
+###
+Then move into the new directory:
+###
+
+```
+cd ruhappy
+```
+
 
 ###
 Then install dependencies by running:
