@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+			<form method="post" action="{{ url_for('tasks') }}">
+			<input type="submit" value="Stop/Start Video" name="stop" />
+			<input type="submit" value="Capture" name="click"/>
+			<input type="submit" value="Smile" name="face" />
+			<input type="submit" value="Start/Stop Recording" name="rec" />
+			</form>
+            <img src="{{ url_for('video_feed') }}" height="80%">
+        </div>
+    </div>
+</div>
+</body>
+{% endblock content %}
