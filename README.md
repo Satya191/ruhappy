@@ -1,6 +1,6 @@
-##
+#
 This is an app I created with my teammates at HackRU.
-##
+#
 
 ###
 To compile this code first run:
@@ -11,7 +11,7 @@ git clone https://github.com/Satya191/ruhappy.git
 ```
 
 ###
-Then install dependencies byb running:
+Then install dependencies by running:
 ###
 
 ```
