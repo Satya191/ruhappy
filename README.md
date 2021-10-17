@@ -1,5 +1,5 @@
 #
-This is an app I created with my teammates at HackRU.
+**This is an app I created with my teammates at HackRU.**
 #
 
 ###
