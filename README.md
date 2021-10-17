@@ -27,5 +27,5 @@ python Camera_Flask_App.py
 ```
 
 ###
-Thats it! Type 127.0.0.1:5000 into your url and you will see the application running.
+Thats it! Type ```127.0.0.1:5000``` into your url and you will see the application running.
 ###
