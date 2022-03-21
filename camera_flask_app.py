@@ -1,4 +1,5 @@
 from flask import Flask, render_template, Response, request
+from flask_ngrok import run_with_ngrok
 import cv2
 import datetime, time
 import os, sys
@@ -26,7 +27,7 @@ smile_detector = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_smil
 
 #instatiate flask app  
 app = Flask(__name__, template_folder='./templates')
-
+run_with_ngrok(app)
 
 camera = cv2.VideoCapture(0)
 
@@ -230,7 +231,7 @@ def tasks():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
     
 camera.release()
 cv2.destroyAllWindows()
