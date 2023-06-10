@@ -1,5 +1,5 @@
 #
-Hackathon application post
+Hackathon application post:
 https://devpost.com/software/r-u-happy
 #
 
